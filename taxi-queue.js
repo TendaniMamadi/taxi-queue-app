@@ -1,8 +1,8 @@
-function TaxiQueue() {
+function TaxiQueue(passengerQue,taxiQue) {
 	//create a variable for passengers joining queue
 	//create a variable for taxis joining queue
-	var Passengers = 0;
-	var taxis = 0;
+	var Passengers = passengerQue || 0;
+	var taxis = taxiQue ||0;
 	
 
 	function joinQueue() {
